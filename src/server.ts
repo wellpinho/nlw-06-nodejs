@@ -1,22 +1,13 @@
+import 'reflect-metadata'
 import express from 'express'
+import './database'
+import router from './routes'
 
 const app = express()
 
-app.get('/', (req , res) => {
-  return res.send('Olá GET')
-})
+app.use(express.json());
 
-app.post('/post', (req, res) => {
-  return res.send('Olá POST')
-})
-
-app.put('/put', (req, res) => {
-  return res.send('Olá PUT')
-})
-
-app.delete('/delete', (req, res) => {
-  return res.send('Olá DELETE')
-})
+app.use(router);
 
 app.listen(4000, () => {
   console.log('Running on port 4000')
