@@ -1,13 +1,13 @@
-import {Column, CreateDateColumn, Entity, PrimaryGeneratedColumn, UpdateDateColumn} from "typeorm";
+import {Column, CreateDateColumn, Entity, PrimaryColumn, PrimaryGeneratedColumn, UpdateDateColumn} from "typeorm";
 import { v4 as uuid } from 'uuid'
 
 @Entity('tags')
 export class Tag {
-  @PrimaryGeneratedColumn('uuid')
-  readonly id: string
+  @PrimaryColumn('uuid')
+  readonly id: String
 
   @Column()
-  name: string
+  name: String
 
   @CreateDateColumn()
   created_at: Date;
