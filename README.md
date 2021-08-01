@@ -57,9 +57,9 @@ Acesse as rotas pelo Postman ou Insomnia: `http://localhost:4000`
 
 ## 📄 Licença
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
-No bootcamp da Rocketseat #nlw-06
-Curso ministrado pela Dani Leão: [Linkedin da Dani](https://www.linkedin.com/in/danieleleaoevangelista/)
+- Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+- No bootcamp da Rocketseat #nlw-06
+- Curso ministrado pela Dani Leão: [Linkedin da Dani](https://www.linkedin.com/in/danieleleaoevangelista/)
 
 ---
-Feito com dedicação &nbsp;by Wellington Pinho 👋🏻 &nbsp;[Meu Linkedin](https://www.linkedin.com/in/wellpinho/)
+Feito com dedicação e paixão &nbsp;by Wellington Pinho 👋🏻 &nbsp;[Meu Linkedin](https://www.linkedin.com/in/wellpinho/)
