@@ -10,10 +10,12 @@
   <img alt="Preview" src="./print/print-vscode.png">
 </p>
 
+## Imagem feita no [whimscal](https://whimsical.com/)
 <p align="center">
   <img alt="Preview" src="./print/entity.png">
 </p>
 
+## POSTMAN
 <p align="center">
   <img alt="Preview" src="./print/postman.png">
 </p>
@@ -34,7 +36,7 @@ Valoriza é uma plataforma para promover o reconhecimento entre companheiros de 
 ## 🚀 Como executar
 
 - Clone o repositório
-- 1. ```https://github.com/wellpinho/nlw-06-nodejs.git```
+- 1. ```git clone https://github.com/wellpinho/nlw-06-nodejs.git```
 - 2. ```cd nlw-06-nodejs```
 - 3. `yarn` para baixar as dependências
 - 4. `yarn typeorm migration:run` para criar as tabelas do banco de dados.
