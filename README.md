@@ -1,33 +1,63 @@
-# nlw-06-nodejs
-NLW sexta edição nodejs
+<h1 align="center">Valoriza</h1>
 
-## Entidades e relacionamentos
-<img src="./print/entity.png" />
+<p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=8257E5&labelColor=000000">
 
-## Usados no projeto
-- NodeJS:  https://nodejs.org/en/
-- Typescript
-- Express
+  <img src="https://img.shields.io/static/v1?label=NLW&message=Together&color=8257E5&labelColor=000000" alt="NLW Together" />
+</p>
 
-## Docker para Ubuntu 20+
-https://docs.docker.com/engine/install/ubuntu/
+<p align="center">
+  <img alt="Preview" src="./print/print-vscode.png">
+</p>
 
-## DB
-- SQLite3
-- typeORM: https://typeorm.io
-- dbeaver: https://dbeaver.io/download/
+<p align="center">
+  <img alt="Preview" src="./print/entity.png">
+</p>
 
-## Regras de negócio
-- Cadastro de usuário
-  - Não é permitido cadastro de usuário com mesmo email
-  - Não é permitido cadastrar usuário sem email
+<p align="center">
+  <img alt="Preview" src="./print/postman.png">
+</p>
 
-- Cadastro de TAG
-  - Não é permitido cadastrar mais de uma TAG com mesmo nome.
-  - Não é permitido cadastrar TAG sem nome.
-  - Não é permitido cadastro por usuários que não sejam admins
+## ✨ Tecnologias
 
-- Cadastro de elogios
-  - Não é permitido um user cadastrar elogio para si mesmo.
-  - Não é permitido cadastrar elogios para user inválidos
-  - User precisa esta autenticado na aplicação.
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- [Node.js](https://nodejs.org/en/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Express](https://expressjs.com/pt-br/)
+- [JSONWebToken](https://github.com/auth0/node-jsonwebtoken#readme)
+
+## 💻 Projeto
+
+Valoriza é uma plataforma para promover o reconhecimento entre companheiros de equipe.
+
+## 🚀 Como executar
+
+- Clone o repositório
+- 1. ```https://github.com/wellpinho/nlw-06-nodejs.git```
+- 2. ```cd nlw-06-nodejs```
+- 3. `yarn` para baixar as dependências
+- 4. `yarn typeorm migration:run` para criar as tabelas do banco de dados.
+- 5. o `yarn dev` para iniciar a aplicação.
+
+Acesse as rotas pelo Postman ou Insomnia: `http://localhost:4000`
+
+# Endpoints
+- Lista de usuários método GET: ```http://localhost:4000/users```
+- Lista de tags método GET: ```http://localhost:4000/tags```
+- Lista de usuários que enviaram elogios método GET: ```http://localhost:4000/users/compliments/send```
+- Lista de usuários que receberam elogios método GET: ```http://localhost:4000/users/compliments/receive```
+- 
+- Criar novo usuário método POST: ```http://localhost:4000/users```
+- Criar nova tag método POST: ```http://localhost:4000/tags```
+- Enviar um elogio método POST: ```http://localhost:4000/compliments```
+- Para se altenticar método POST: ```http://localhost:4000/login```
+
+## 📄 Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+No bootcamp da Rocketseat #nlw-06
+Curso ministrado pela Dani Leão: [Linkedin da Dani](https://www.linkedin.com/in/danieleleaoevangelista/)
+
+---
+Feito com dedicação &nbsp;by Wellington Pinho 👋🏻 &nbsp;[Meu Linkedin](https://www.linkedin.com/in/wellpinho/)
